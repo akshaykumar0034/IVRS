@@ -1,0 +1,153 @@
+/* static/style.css */
+
+.main {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+}
+.stMainBlockContainer {
+    padding-top: 35px !important;
+}
+.header {
+    background: linear-gradient(90deg, #0d1b2a 0%, #1b263b 50%, #2d4263 100%);
+    padding: 6px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.header h1 {
+    color: #00d4ff;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom:0px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 1.5px;
+}
+.header p {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 5px 0 0 0;
+    opacity: 0.9;
+}
+.sidebar-content {
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.stButton > button {
+    background: linear-gradient(45deg, #00d4ff, #0099cc);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,212,255,0.3);
+}
+.stButton > button:hover {
+    background: linear-gradient(45deg, #0099cc, #00d4ff);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,212,255,0.5);
+}
+.info-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding-bottom:6px;
+    padding-top:6px;
+    border: 1px solid rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.status-card {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.status-with-pass {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: white;
+    box-shadow: 0 4px 15px rgba(40,167,69,0.3);
+}
+.status-without-pass {
+    background: linear-gradient(45deg, #dc3545, #fd7e14);
+    color: white;
+    box-shadow: 0 4px 15px rgba(220,53,69,0.3);
+}
+.stTextInput > div > div > input {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    border-radius: 10px;
+}
+.stTextInput > div > div > input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+.alert-success {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.alert-error {
+    background: linear-gradient(45deg, #dc3545, #fd7e14);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.video-container {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #00d4ff;
+    margin: 20px 0;
+}
+.dataframe {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(45deg, #ffc107, #ff8c00);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(255,193,7,0.3);
+}
+#MainMenu {visibility: hidden;}
+.stDeployButton {display:none;}
+footer {visibility: hidden;}
+.stApp > header {visibility: hidden;}
+.live-feed {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #00d4ff;
+    margin: 20px 0;
+}
+.vehicle-details {
+    background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(0,153,204,0.1));
+    padding: 20px;
+    border-radius: 15px;
+    padding-top:6px;
+    padding-bottom:6px;
+    border: 1px solid rgba(0,212,255,0.3);
+    margin: 20px 0;
+}
